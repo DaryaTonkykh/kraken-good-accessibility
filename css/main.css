@@ -20,7 +20,7 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  width: 95%;
 }
 
 header {
@@ -31,6 +31,11 @@ header {
   font-style: normal;
   font-weight: normal;
   padding: 1rem;
+}
+
+li img {
+  display: block;
+  width: 100%
 }
 
 header strong,
@@ -46,6 +51,8 @@ header p {
 article div {
   padding: 1rem;
   padding-bottom: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 article header {
