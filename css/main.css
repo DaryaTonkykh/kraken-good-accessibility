@@ -20,7 +20,7 @@ body {
 
 img {
   display: block;
-  width: 95%;
+  width: 100%;
 }
 
 header {
@@ -31,11 +31,6 @@ header {
   font-style: normal;
   font-weight: normal;
   padding: 1rem;
-}
-
-li img {
-  display: block;
-  width: 100%;
 }
 
 header strong,
@@ -50,9 +45,6 @@ header p {
 
 article div {
   padding: 1rem;
-  padding-bottom: 0;
-  margin-left: 1rem;
-  margin-right: 1rem;
 }
 
 article header {
@@ -103,8 +95,7 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
-  outline: inherit;
-  border: 1px solid black;
+  outline: 3px solid #000;
 }
 
 .icon {
@@ -127,7 +118,7 @@ nav i {
 
 article p {
   margin: 0;
-  text-indent: 1em;
+  text-indent: 1.3em;
 }
 
 article div :first-child {
@@ -147,10 +138,7 @@ figure img {
   display: flex;
   border: 1px solid #259f95;
   border-radius: 6px;
-  margin-top: 1rem;
-  margin-bottom: 1.4rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 figcaption {
