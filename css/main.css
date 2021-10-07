@@ -141,13 +141,16 @@ article div :first-child::first-line {
 
 figure {
   margin: 1.5rem 0;
-  padding: 0 1rem;
 }
 
 figure img {
   border: 1px solid #259f95;
   border-radius: 6px;
   margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1.4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 figcaption {
