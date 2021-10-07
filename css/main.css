@@ -35,7 +35,7 @@ header {
 
 li img {
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 header strong,
@@ -103,8 +103,8 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
-  outline: .15rem solid #000;
-  outline-offset: .1rem;
+  outline: inherit;
+  border: 1px solid black
 }
 
 .icon {
@@ -127,7 +127,7 @@ nav i {
 
 article p {
   margin: 0;
-  text-indent: 1.3em;
+  text-indent: 1em;
 }
 
 article div :first-child {
